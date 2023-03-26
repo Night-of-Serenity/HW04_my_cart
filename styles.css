@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+nav {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.logo {
+    color: rgb(127, 192, 30);
+}
+
+.mid-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-nav {
+    display: flex;
+    gap: .5rem;
+}
+
