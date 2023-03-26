@@ -5,8 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="left-nav">
+            <div class="logo">
+                <i class="fa-solid fa-check-double"></i>
+            </div>
+            <div class="Jobpasscard">Job Passcard</div>
+        </div>
+        <div class="mid-nav">
+            <div>About Us</div>
+            <div>Passcard</div>
+            <div>Profile</div>
+        </div>
+        <div class="right-nav">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div> 
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="login-tab">Login</div>
+            <div class="Signup-tab">Sign up</div>
+        </div>
+    </nav>
+    <header><h2>My Cart</h2></header>
+    <main>
+        <div class="items-box">
+            <div class="items-card"></div>
+            <div class="items-card"></div>
+        </div>
+        <form class="order-form">
+            <p class="order-info">Order Info</p>
+            <br>
+            <div class="subtotal-box">
+                <p class="subtotal-text">Subtotal</p>
+                <p class="subtotal-num">THB 300</p>
+            </div>
+            <div class="promotioncode-box">
+                <div class="keyboard-icon">
+                    <i class="fa-regular fa-keyboard"></i>
+                </div>
+                <input type="text" class="text" placeholder="Promotion code">
+                <button type="button" class="apply-btn">Apply</button>
+            </div>
+            <hr>
+            <br>
+            <div class="payment-box">
+                <p class="payment-text">Total payment</p>
+                <p class="payment-num">THB 300</p>
+                <input type="submit" class="login-btn">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
