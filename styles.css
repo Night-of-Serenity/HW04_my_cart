@@ -37,3 +37,30 @@ header {
     padding-left: 2rem;
 }
 
+main {
+    display:flex;
+    justify-content: space-around;
+}
+
+.items-box {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.items-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.del-icon i{
+    position: relative;
+    top: 85%;
+}
+
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
