@@ -10,9 +10,11 @@ body {
 }
 
 nav {
-    padding: .5rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .left-nav {
@@ -34,16 +36,20 @@ nav {
 }
 
 header {
-    padding-left: 2rem;
+    padding-left: 8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 main {
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
 }
 
 .items-box {
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,16 +57,105 @@ main {
 
 .items-card {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 5px;
 }
 
-.del-icon i{
+.trash-icon i {
     position: relative;
-    top: 85%;
+    top: 50%;
+    font-size: 20px;
+    border-radius: 1px solid rgb(27, 27, 27);
+    padding: 3px;
 }
 
 .item-detail {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: grey;
 }
+
+.item-img {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 145, 0);
+    background: linear-gradient(112deg, rgba(255, 145, 0, 1) 0%, rgba(232, 225, 14, 1) 100%, rgba(164, 150, 14, 1) 100%);
+    border-radius: 10%;
+}
+
+.rating-box {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.rating-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.order-form {
+    width: 30vw;
+    height: 50vh;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    padding: 2rem 1rem;
+    font-weight: bold;
+}
+
+.subtotal-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotioncode-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promotioncode-box .text {
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 5px 3px;
+}
+
+.apply-btn {
+    padding: 3px 36px;
+    color: Turquoise;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid Turquoise;
+}
+
+.payment-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-num {
+    color: Aquamarine;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.login-btn {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: Aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
