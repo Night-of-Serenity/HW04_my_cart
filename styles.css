@@ -44,6 +44,7 @@ header {
 main {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
     gap: 5rem;
     padding: 2rem;
 }
@@ -133,7 +134,9 @@ main {
 }
 
 .apply-btn {
-    padding: 3px 36px;
+    width: 30%;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: Turquoise;
     background-color: white;
     border-radius: 5px;
