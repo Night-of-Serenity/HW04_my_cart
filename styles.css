@@ -67,8 +67,9 @@ main {
     position: relative;
     top: 50%;
     font-size: 20px;
-    border-radius: 1px solid rgb(27, 27, 27);
-    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid rgb(119, 118, 118);
+    padding: 4px;
 }
 
 .item-detail {
@@ -105,7 +106,7 @@ main {
 
 .order-form {
     width: 30vw;
-    height: 50vh;
+    height: 60%;
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid gainsboro;
