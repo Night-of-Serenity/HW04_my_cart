@@ -86,6 +86,20 @@ main {
     background: rgb(255, 145, 0);
     background: linear-gradient(112deg, rgba(255, 145, 0, 1) 0%, rgba(232, 225, 14, 1) 100%, rgba(164, 150, 14, 1) 100%);
     border-radius: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 1rem;
+    color:white;
+    gap: 1rem;
+}
+
+.item-img span {
+    width: 1rem;
+    background-color: white;
+    padding: 2px;
+    color: rgb(255, 145, 0);
+    border-radius: 5px;
 }
 
 .rating-box {
